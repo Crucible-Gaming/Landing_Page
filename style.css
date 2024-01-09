@@ -6,9 +6,29 @@
 
 * {
     background-color: #1f2937;
-    color: #ffffff;
     font-family: Roboto, sans-serif;
+    text-decoration: none;
+
 }
+
+.header{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .images {
-    size: 300px;
+    max-width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
