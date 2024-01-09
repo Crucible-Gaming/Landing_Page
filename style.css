@@ -1,0 +1,14 @@
+<!-- index.html -->
+
+.body {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    background-color: #1f2937;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+.images {
+    size: 300px;
+}
