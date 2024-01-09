@@ -11,18 +11,58 @@ a:link {
     color: #ffffff;
 }
 
-.header {
-    font-size: 24px;
+.top {
     color: #f9faf8;
     background-color: #1f2937;
 }
 
-.ul {
-    color: #ffffff;
+.header {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    justify-content: space-around;
 }
 
-.secondary {
+ul {
+    display: flex;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.block1 {
+    display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 300;
+}
+
+.right {}
+
+
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 0px;
+
+}
+.right {
+    background-color: #b8c0d1;
 }
 
 .hero-main {
@@ -45,12 +85,15 @@ a:link {
 .quote {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 200px;
+    font-weight: 200;
     font-style: italic;
     background-color: #e5e7eb;
 
 }
 
+.sig {
+    font-weight: 400;
+}
 .footer {
     background-color: #3882f6;
     color: #ffffff;
