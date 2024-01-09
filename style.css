@@ -1,28 +1,37 @@
-<!-- index.html -->
-
-.body {
-    font-family: Roboto, sans-serif;
-}
+/* Style sheet referred to by index.html */
 
 * {
-    background-color: #1f2937;
     font-family: Roboto, sans-serif;
     text-decoration: none;
-
+    list-style-type: none;
+    
 }
 
-.header{
+a:link {
+    color: #ffffff;
+}
+
+.header {
     font-size: 24px;
     color: #f9faf8;
+    background-color: #1f2937;
 }
 
-.header1 {
+.ul {
+    color: #ffffff;
+}
+
+.secondary {
+    background-color: #1f2937;
+}
+
+.hero-main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
 
-.secondary {
+.hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -31,4 +40,32 @@
     max-width: 150px;
     border: 2px solid #3882f6;
     border-radius: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 200px;
+    font-style: italic;
+    background-color: #e5e7eb;
+
+}
+
+.footer {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.button1, .button2 {
+    color: #ffffff;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    width: 75px;
+}
+
+.button2 {
+    border-color: #ffffff;
 }
